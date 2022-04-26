@@ -1,0 +1,220 @@
+<html>
+
+<head>
+<link href="assets/css/theme.scss" rel="stylesheet" />
+<link href="assets/css/bootstrap.css" rel="stylesheet" />
+<link href="assets/css/ui.css" rel="stylesheet" />
+
+<link href="assets/css/responsive.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+<link href="assets/css/style9571.css?v=2.4" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<meta name="Generator" content="HTML Editor">
+<title>Dodaj konkurs - krok 1</title>
+</head>
+
+<style type="text/css">
+    @media (min-width: 1400px) {
+        .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1179px;
+}
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+</style>
+<header  class="bg-primary shadow" style="   background-image:
+    linear-gradient(6deg, rgba(0,0,0,0.835171568627451) 0%, rgba(0,0,0,0.5270483193277311) 100%),
+    url('assets/images/iStock-828121484.jpg'); background-position: center; background-size: cover;">
+    <div class="container " >
+	<nav class="pt-0 mt-0 navbar navbar-expand-sm navbar-dark">
+  <div class="container pt-5 "> <a class="navbar-brand" href=""> <img src="assets/images/logo.png" height="120" class="logo"> </a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_main1" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbar_main1">
+            <ul class="navbar-nav ms-auto me-sm-2 mt-2 mt-lg-0">
+         
+                <li class="nav-item me-2"> <a class="nav-link" href="#">Konkursy</a> </li>
+                <li class="nav-item me-2"> <a class="nav-link" href="#">Jak działa konkurs</a> </li>
+                <li class="nav-item me-2"> <a class="nav-link" href="#">Kontakt</a> </li>
+         
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown"> <a class="nav-link py-0 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <span class="icon-xs bg-gray rounded-circle me-2"><i class="fa-solid fa-user text-white"></i> </span> <span>Logowanie </span> </a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li> <a class="dropdown-item" href="#">Mój profil</a> </li>
+                        <li> <a class="dropdown-item" href="#">Pozycja menu</a> </li>
+                        <li> <a class="dropdown-item" href="#">Pozycja menu</a> </li>
+                        <li>
+                            <hr class="dropdown-divider"> </li>
+                        <li> <a class="dropdown-item" href="#">Wyloguj się </a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+</header>
+<body>
+
+
+
+
+<section class="padding-y bg-light">
+    <div class="container">
+        <article class="card">
+    <div class="card-body">
+        <h5 class="card-title text-center ">Dodaj konkurs</h5>
+       
+        <ul class="steps-wrap">
+            <li class="step active"> <span class="icon">1</span> <span class="text">Podstawowe dane</span> </li>
+            <!-- step.// -->
+            <li class="step "> <span class="icon">2</span> <span class="text">Inspiracja wizualna</span> </li>
+            <!-- step.// -->
+            <li class="step "> <span class="icon">3</span> <span class="text">Styl </span> </li>
+            <!-- step.// -->
+            <li class="step"> <span class="icon">4</span> <span class="text">Kolor</span> </li>
+            <!-- step.// -->
+            <li class="step"> <span class="icon">5</span> <span class="text">Pomysły</span> </li>
+            <li class="step"> <span class="icon">6</span> <span class="text">Opcje</span> </li>
+            <li class="step"> <span class="icon">7</span> <span class="text">Płatność</span> </li>
+
+            <!-- step.// -->
+        </ul>
+        <hr>
+
+      <div class="container px-5 my-5">
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <div class="mb-3">
+                <label class="form-label" for="nazwa">Nazwa</label>
+                <input class="form-control" id="nazwa" type="text" placeholder="Nazwa" data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="nazwa:required">Nazwa is required.</div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="hasloOpcjonalnie">Hasło (opcjonalnie)</label>
+                <input class="form-control" id="hasloOpcjonalnie" type="text" placeholder="Hasło (opcjonalnie)" data-sb-validations="" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="opiszCzymZajmujeSieTwojaMarkaIKimJestGrupaDocelowa">Opisz czym zajmuje się Twoja marka i kim jest grupa docelowa </label>
+                <textarea class="form-control" id="opiszCzymZajmujeSieTwojaMarkaIKimJestGrupaDocelowa" type="text" placeholder="Opisz czym zajmuje się Twoja marka i kim jest grupa docelowa " style="height: 10rem;" data-sb-validations=""></textarea>
+            </div>
+
+            <div class="mb-3">
+             <label class="form-label w-100" for="opiszCzymZajmujeSieTwojaMarkaIKimJestGrupaDocelowa">Branża </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-money-bill pl-2"></i> Księgowość  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-person-rays pl-2 "></i> Uroda  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-chalkboard-user pl-2 "></i> Edukacja  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-people-group pl-2 "></i> Wydarzenia  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-leaf pl-2 "></i> Dom i ogród  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-briefcase-medical pl-2 "></i> Medycyna  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-house-chimney pl-2 "></i> Nieruchomości  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-scale-balanced pl-2 "></i> Prawo  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-money-bill pl-2"></i> Księgowość  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-person-rays pl-2 "></i> Uroda  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-chalkboard-user pl-2 "></i> Edukacja  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-people-group pl-2 "></i> Wydarzenia  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-leaf pl-2 "></i> Dom i ogród  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-briefcase-medical pl-2 "></i> Medycyna  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-house-chimney pl-2 "></i> Nieruchomości  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-scale-balanced pl-2 "></i> Prawo  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-scale-balanced pl-2 "></i> Prawo  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-money-bill pl-2"></i> Księgowość  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-person-rays pl-2 "></i> Uroda  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-chalkboard-user pl-2 "></i> Edukacja  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-people-group pl-2 "></i> Wydarzenia  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-leaf pl-2 "></i> Dom i ogród  </label>
+            <label class="checkbox-btn p-1"> <input type="radio" name="choose_55"> <span class="btn btn-light"> <i class="fa-solid fa-briefcase-medical pl-2 "></i> Medycyna  </label>
+        
+    
+            </div>
+            
+            <div class="d-grid">
+                <button class="btn btn-primary btn-lg " id="submitButton" type="submit">Następny krok <i class="fa-solid fa-angles-right"></i></button>
+            </div>
+        </form>
+    </div>
+        
+        
+    </div>
+</article>
+        <!-- ========================= COMPONENT ACCOUNT 1 ========================= -->
+        <div class="d-none row">
+            <aside class="col-lg-3">
+                <!-- COMPONENT MENU LIST -->
+                <div class="card p-3 h-100">
+                    <nav class="nav flex-column nav-pills"> <a class="nav-link active" href="#">Account div</a> <a class="nav-link" href="#">New orders</a> <a class="nav-link" href="#">Orders history</a> <a class="nav-link" href="#">My wishlist</a> <a class="nav-link" href="#">Transactions</a>                        <a class="nav-link" href="#">Profile setting</a> <a class="nav-link" href="#">Log out</a> </nav>
+                </div>
+                <!-- COMPONENT MENU LIST END .// -->
+            </aside>
+            <div class="col-lg-9">
+                <article class="card">
+                    <div class="card-body">
+                        <div class="itemside align-items-center">
+                            <div class="aside"> <img src="bootstrap5-ecommerce/images/avatars/avatar.jpg" class="icon-md img-avatar"> </div>
+                            <div class="info">
+                                <h6 class="title">Mr. Jackson Mike</h6>
+                                <p>Email: myusername@gmail.com <i class="dot"></i> Phone: +1234567890988 <a href="#" class="px-2"><i class="fa fa-pen"></i></a> </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="text-muted">Delivery addresses</p>
+                        <div class="row g-2 mb-3">
+                            <div class="col-md-6">
+                                <article class="box"> <b class="mx-2 text-muted"><i class="fa fa-map-marker-alt"></i></b> Tashkent city, Street name, Building 123, House 321 </article>
+                            </div>
+                            <!-- col.// -->
+                            <div class="col-md-6">
+                                <article class="box"> <b class="mx-2 text-muted"><i class="fa fa-map-marker-alt"></i></b> Moscow city, Street name, Building lenin, House 77 </article>
+                            </div>
+                            <!-- col.// -->
+                        </div>
+                        <!-- row.// --><a href="#" class="btn btn-outline-primary"> <i class="me-2 fa fa-plus"></i> Add new address </a>
+                        <hr>
+                        <p class="text-muted">Payment methods</p>
+                        <div class="row g-2 mb-3">
+                            <div class="col-md-6">
+                                <article class="box"> <b class="mx-2 text-muted"><i class="fa fa-credit-card"></i></b> Visa •••• 9905, Exp: 12/21 </article>
+                            </div>
+                            <!-- col.// -->
+                        </div>
+                        <!-- row.// --><a href="#" class="btn btn-outline-primary"> <i class="me-2 fa fa-plus"></i> Add payment method </a> </div>
+                    <!-- card-body .// -->
+                </article>
+                <!-- card .// -->
+            </div>
+        </div>
+        
+    </div>
+    <!-- container .// -->
+</section>
+
+<footer class="section-footer bg-dark  shadow">
+    <div class="container">
+        
+        <!-- footer-top.// -->
+        <section class="footer-bottom d-flex justify-content-lg-between border-top">
+            <p class="text-muted mb-0"> © 2022 </p>
+            <nav> 
+                <a href="#" class="text-white px-2  text-decoration-none text-muted">jakiś link</a> 
+                <a href="#" class="text-white px-2 text-decoration-none text-muted">jakiś link</a>
+                <a href="#" class="text-white px-2 text-decoration-none text-muted">jakiś link</a>
+                <a href="#" class="text-white px-2 text-decoration-none text-muted">jakiś link</a>
+                <a href="#" class="text-white px-2 text-decoration-none text-muted">jakiś link</a>
+
+            </nav>
+        </section>
+    </div>
+    <!-- container end.// -->
+</footer>
+</body>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
