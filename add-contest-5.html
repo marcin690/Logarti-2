@@ -1,0 +1,212 @@
+<html>
+
+<head>
+<link href="assets/css/theme.scss" rel="stylesheet" />
+<link href="assets/css/bootstrap.css" rel="stylesheet" />
+<link href="assets/css/ui.css" rel="stylesheet" />
+
+<link href="assets/css/responsive.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+<link href="assets/css/style9571.css?v=2.4" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<meta name="Generator" content="HTML Editor">
+<title>Dodaj konkurs - krok 1</title>
+</head>
+
+<style type="text/css">
+    @media (min-width: 1400px) {
+        .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1179px;
+}
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+</style>
+<header  class="bg-primary shadow" style="   background-image:
+    linear-gradient(6deg, rgba(0,0,0,0.835171568627451) 0%, rgba(0,0,0,0.5270483193277311) 100%),
+    url('assets/images/iStock-828121484.jpg'); background-position: center; background-size: cover;">
+    <div class="container " >
+	<nav class="pt-0 mt-0 navbar navbar-expand-sm navbar-dark">
+  <div class="container pt-5 "> <a class="navbar-brand" href=""> <img src="assets/images/logo.png" height="120" class="logo"> </a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_main1" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbar_main1">
+            <ul class="navbar-nav ms-auto me-sm-2 mt-2 mt-lg-0">
+         
+                <li class="nav-item me-2"> <a class="nav-link" href="#">Konkursy</a> </li>
+                <li class="nav-item me-2"> <a class="nav-link" href="#">Jak działa konkurs</a> </li>
+                <li class="nav-item me-2"> <a class="nav-link" href="#">Kontakt</a> </li>
+         
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown"> <a class="nav-link py-0 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <span class="icon-xs bg-gray rounded-circle me-2"><i class="fa-solid fa-user text-white"></i> </span> <span>Logowanie </span> </a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li> <a class="dropdown-item" href="#">Mój profil</a> </li>
+                        <li> <a class="dropdown-item" href="#">Pozycja menu</a> </li>
+                        <li> <a class="dropdown-item" href="#">Pozycja menu</a> </li>
+                        <li>
+                            <hr class="dropdown-divider"> </li>
+                        <li> <a class="dropdown-item" href="#">Wyloguj się </a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+</header>
+<body>
+
+
+
+
+<section class="padding-y bg-light">
+    <div class="container">
+        <article class="card">
+    <div class="card-body">
+        <h5 class="card-title text-center ">Dodaj konkurs</h5>
+       
+        <ul class="steps-wrap">
+            <li class="step active"> <span class="icon">1</span> <span class="text">Informacje na temat logo </span> </li>
+            <!-- step.// -->
+            <li class="step active "> <span class="icon active">2</span> <span class="text">Inspiracja wizualna i kolory </span> </li>
+            <!-- step.// -->
+            <li class="step active"> <span class="icon">3</span> <span class="text">Pomysły na logo </span> </li>
+            <!-- step.// -->
+            <li class="step active"> <span class="icon">4</span> <span class="text">Plan cenowy </span> </li>
+            <!-- step.// -->
+            <li class="step active "> <span class="icon">5</span> <span class="text">Twoje dane </span> </li>
+    
+            <li class="step"> <span class="icon">7</span> <span class="text">Płatność</span> </li>
+            <!-- step.// -->
+        </ul>
+        <hr>
+
+      <div class="container px-5 my-5">
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN" action="/add-contest-2.html">
+            <div class="row">
+
+                <div class="col-12 col-md-4 mb-3">
+                    <label class="form-label" for="nazwaUzytkownika">Nazwa użytkownika</label>
+                    <input class="form-control" id="nazwaUzytkownika" type="text" placeholder="Nazwa użytkownika" data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="nazwaUzytkownika:required">Nazwa użytkownika is required.</div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <label class="form-label" for="haslo">Hasło </label>
+                    <input class="form-control" id="haslo" type="password" placeholder="Hasło " data-sb-validations="required" />
+                    <div class="invalid-feedback" data-sb-feedback="haslo:required">Hasło is required.</div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <label class="form-label" for="adresEMail">Adres E-mail</label>
+                    <input class="form-control" id="adresEMail" type="email" placeholder="Adres E-mail" data-sb-validations="required,email" />
+                    <div class="invalid-feedback" data-sb-feedback="adresEMail:required">Adres E-mail is required.</div>
+                    <div class="invalid-feedback" data-sb-feedback="adresEMail:email">Adres E-mail Email is not valid.</div>
+                </div>
+                <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">
+                        <div class="fw-bolder">Form submission successful!</div>
+                        <p>To activate this form, sign up at</p>
+                        <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    </div>
+                </div> 
+            <div class="col-12 col-md-6 col mb-3">
+                <label class="form-label" for="nazwaFirmy">Nazwa firmy</label>
+                <input class="form-control" id="nazwaFirmy" type="text" placeholder="Nazwa firmy" data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="nazwaFirmy:required">Nazwa firmy is required.</div>
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+                <label class="form-label" for="nip">NIP</label>
+                <input class="form-control" id="nip" type="text" placeholder="NIP" data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="nip:required">NIP is required.</div>
+            </div>
+           
+            <div class="mb-3">
+                <label class="form-label" for="ulicaINumerDomu">Ulica i numer domu</label>
+                <input class="form-control" id="ulicaINumerDomu" type="text" placeholder="Ulica i numer domu" data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="ulicaINumerDomu:required">Ulica i numer domu is required.</div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="miasto">Miasto</label>
+                <input class="form-control" id="miasto" type="text" placeholder="Miasto" data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="miasto:required">Miasto is required.</div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="kodPocztowy">Kod pocztowy </label>
+                <input class="form-control" id="kodPocztowy" type="text" placeholder="Kod pocztowy " data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="kodPocztowy:required">Kod pocztowy is required.</div>
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+                <label class="form-label" for="region">Kraj</label>
+                <select class="form-select" id="region" aria-label="Region">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+                <label class="form-label" for="region">Region</label>
+                <select class="form-select" id="region" aria-label="Region">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="numerRachunkuBankowego">Numer rachunku bankowego w przypadku zwrotu</label>
+      
+                <input class="form-control" id="numerRachunkuBankowego" type="text" placeholder="Numer rachunku bankowego" data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="numerRachunkuBankowego:required">Numer rachunku bankowego is required.</div>
+            </div>
+            
+            <div class="d-grid">
+                <button class="btn btn-primary btn-lg " id="submitButton" type="submit">Następny krok <i class="fa-solid fa-angles-right"></i></button>
+            </div>
+
+        </div>
+        </form>
+    </div>
+        
+        
+    </div>
+</article>
+        <!-- ========================= COMPONENT ACCOUNT 1 ========================= -->
+       
+        
+    </div>
+    <!-- container .// -->
+</section>
+
+<footer class="section-footer bg-dark  shadow">
+    <div class="container">
+        
+        <!-- footer-top.// -->
+        <section class="footer-bottom d-flex justify-content-lg-between border-top">
+            <p class="text-muted mb-0"> © 2022 </p>
+            <nav> 
+                <a href="#" class="text-white px-2  text-decoration-none text-muted">jakiś link</a> 
+                <a href="#" class="text-white px-2 text-decoration-none text-muted">jakiś link</a>
+                <a href="#" class="text-white px-2 text-decoration-none text-muted">jakiś link</a>
+                <a href="#" class="text-white px-2 text-decoration-none text-muted">jakiś link</a>
+                <a href="#" class="text-white px-2 text-decoration-none text-muted">jakiś link</a>
+
+            </nav>
+        </section>
+    </div>
+    <!-- container end.// -->
+</footer>
+</body>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
