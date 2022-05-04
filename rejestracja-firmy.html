@@ -9,10 +9,11 @@
     <!-- Custom CSS -->
 <link href="assets/css/style9571.css?v=2.4" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 <meta name="Generator" content="HTML Editor">
-<title>Rejestracja </title>
+<title>Rejestracja firmy</title>
 </head>
 
 <style type="text/css">
@@ -72,33 +73,27 @@
         
         <article class="card">
        <div class="card-body">
-    <h4 class="mb-4">Rejestracja</h4>
+    <h4 class="mb-4">Rejestracja klienta</h4>
     <form>
-        <div class="row gx-3">
-            <div class="col mb-4"><label class="form-label">Imię</label> <input type="text" class="form-control" placeholder="" /></div>
+        <div class="row row-cols-lg-3 row-cols-1 g-4">
+            <div class="col mb-4"><label class="form-label">Nazwa firmy </label> <input type="text" class="form-control" placeholder="" /></div>
             <!-- col end.// -->
-            <div class="col mb-4"><label class="form-label">Nazwisko</label> <input type="text" class="form-control" placeholder="" /></div>
+            <div class="col mb-4"><label class="form-label">NIP</label> <input type="text" class="form-control" placeholder="" /></div>
 
-              <div class="col mb-4"><label class="form-label">Nazwa użytkownika</label> <input type="text" class="form-control" placeholder="" /></div>
+              <div class="col col-md-4 mb-4"><label class="form-label">Nazwa użytkownika</label> <input type="text" class="form-control" placeholder="" /></div>
             <!-- col end.// -->
         </div>
         <!-- row end.// -->
-        <div class="row">
-            <div class="col-auto mb-3">
-                <label class="form-check"> <input class="form-check-input" type="radio" name="choose_a" checked="" /> <span class="form-check-label"> Chcę projektować logo </span> </label>
-            </div>
-            <!-- col end.// -->
-            <div class="col-auto mb-3">
-                <label class="form-check"> <input class="form-check-input" type="radio" name="choose_a" /> <span class="form-check-label"> Chcę zlecić zaprojektowanie logo </span> </label>
-            </div>
-            <!-- col end.// -->
-            
-        </div>
+       
         <!-- row end.// -->
-        <div class="row gx-3">
+        <div class="row row-cols-lg-3 row-cols-1 g-4">
             <div class="col mb-3"><label class="form-label">Ulica i numer domu</label> <input type="text" class="form-control" /></div>
             <div class="col mb-3"><label class="form-label">Miasto </label> <input type="text" class="form-control" placeholder="" /></div>
-              <div class="col mb-3"><label class="form-label">Kod pocztowy  </label> <input type="text" class="form-control" placeholder="" /></div>
+            <div class="col mb-3"><label class="form-label">Kod pocztowy  </label> <input type="text" class="form-control" placeholder="" /></div>
+        </div>
+
+         <div class="row row-cols-lg-2 row-cols-1 g-4">
+
             <div class="col mb-3"><label class="form-label">Województwo </label> 
                 <select class="form-select">
                     <option value="none">Wybierz...</option>
@@ -111,6 +106,23 @@
                 </select>
 
             </div>
+            <div class="col mb-3"><label class="form-label">Kraj </label> 
+                <select class="form-select">
+                    <option value="none">Wybierz...</option>
+                    <option value="uz">Nazwa</option>
+                    <option value="ru">Nazwa</option>
+                     <option value="uz">Nazwa</option>
+                    <option value="ru">Nazwa</option>
+                     <option value="uz">Nazwa</option>
+                    <option value="ru">Nazwa</option>
+                </select>
+
+            </div>
+        </div>
+            
+            <div class="row row-cols-lg-4 row-cols-1 g-4">
+  
+            <div class="w-100 mb-3"><label class="form-label">Numer konta bankowego (w przypadku zwrotu)</label> <input type="text" class="form-control" /></div>
 
           
 
@@ -118,9 +130,9 @@
         
             <!-- col end.// -->
            
-            <div class="col-12 mb-3"><label class="form-label">E-mail</label> <input type="email" class="form-control" placeholder="" /> <small class="form-text">We'll never share your email</small></div>
+            <div class="col mb-3"><label class="form-label">E-mail</label> <input type="email" class="form-control" placeholder="" /> <small class="form-text">We'll never share your email</small></div>
             <!-- col end.// -->
-            <div class="col-6 mb-3">
+            <div class="col mb-3">
                 <label class="form-label">Numer telefonu</label>
                 <div class="input-group">
                   
@@ -131,8 +143,10 @@
             <div class="col mb-3"><label class="form-label">Podaj hasło</label> <input class="form-control" type="password" /></div>
             <!-- col end.// -->
             <div class="col mb-3"><label class="form-label">Powtórz hasło</label> <input class="form-control" type="password" /></div>
+
+            </div>
             <!-- col end.// -->
-        </div>
+        
         <!-- row end.// -->
         <div class="row mt-3 mb-4 align-items-center">
             <div class="col-auto"><button class="btn btn-primary" type="button">Zarejestruj się </button></div>
@@ -140,6 +154,8 @@
                 <label class="form-check me-auto"> <input class="form-check-input" type="checkbox" value="" /> <span class="form-check-label"> Akceptuję regulamin </span> </label>
             </div>
         </div>
+
+    </div>
     </form>
     <!-- form end.// -->
     <hr />
